@@ -49,6 +49,7 @@ function getMid(){
         let minfo = node.getAttribute('minfo');
         if (minfo && minfo.indexOf('ru=&') >= 0) {
             emptyNodes.push(node.getAttribute('mid'));
+        }
     }
     return emptyNodes;
 }
