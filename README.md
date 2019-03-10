@@ -11,4 +11,4 @@
 
 ## 如果出现异常现象刷新浏览器即可 提issue以便我作修改
 
-<a href="javascript:void((function(){var e=document.createElement('script');var ex=document.createElement('script');e.setAttribute('src','http://127.0.0.1:5000');ex.setAttribute('src','https://raw.githubusercontent.com/ibesty/delete_useless_retweet_weibo/master/bookmark.js');document.body.appendChild(e);document.body.appendChild(ex);})())">将我拖到书签栏</a>
+<a href="javascript:(function(){ window.open('http://www.test.com/'); })();">test</a>
