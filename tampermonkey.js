@@ -57,7 +57,8 @@ function getMid(){
         let minfo = node.getAttribute('minfo');
         if (minfo && minfo.indexOf('ru=&') >= 0) {
             emptyNodes.push(node.getAttribute('mid'));
-            console.log(node.getAttribute('mid'), node.querySelector('.WB_detail .text').innerText) }
+            console.log(node.getAttribute('mid'), node.querySelector('.WB_detail .text').innerText)
+        }
     }
     return emptyNodes;
 }
